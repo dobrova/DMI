@@ -1,5 +1,5 @@
-    1  VirtualBox --startvm XP
-    2  uname
+    
+    
     3  uname-r
     4  uname
     5  uname -r
@@ -71,3 +71,14 @@
    71  ls -l
    72  cat history.txt
    73  history > history.txt
+   74  cat history.txt
+   75  git init
+   76  git add
+   77  git add .
+   78  git config --global user.email ksenija288@inbox.lv
+   79  git commit -m "20170914_09_40"
+   80  git nemote add origin https://github.com/dobrova/DMI.git
+   81  git remote add origin https://github.com/dobrova/DMI.git
+   82  git push origin master
+   83  history
+   84  history > history.txt
