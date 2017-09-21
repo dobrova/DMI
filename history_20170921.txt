@@ -46,3 +46,63 @@
    46  ls -l
    47  cat git-upload 
    48  history > history_20170921.txt
+   49  ls -l
+   50  git-upload
+   51  history
+   52  PATH=$PATH:home/user
+   53  echo $PATH
+   54  chmod 744 git-upload
+   55  ls
+   56  git-upload
+   57  echo $PATH
+   58  git-upload
+   59  PATH=$PATH:home/user
+   60  git-upload
+   61  PATH=$PATH:home/user/DMI
+   62  git-upload
+   63  echo $PATH
+   64  chmod 744 git-upload
+   65  git-upload
+   66  pwd
+   67  PATH=$PATH:home/user/DMI
+   68  chmod 744 git-upload
+   69  ls
+   70  git-upload
+   71  echo $PATH
+   72  PWD
+   73  pwd
+   74  echo $PATH
+   75  PATH=$PATH:~/DMI
+   76  echo $PATH
+   77  git-upload
+   78  nano history_20170921.txt
+   79  nano inbox
+   80  ls -l
+   81  cat inbox
+   82  inbox
+   83  chmod 744 inbox
+   84  inbox
+   85  cat inbox
+   86  nano inbox
+   87  ibox
+   88  inbox
+   89  nano inbox
+   90  mainigais=5
+   91  echo $mainigais
+   92  mainigais=23
+   93  echo $mainigais
+   94  mainigais=*****
+   95  echo $mainigais
+   96  nano shell_treninjsh.sh
+   97  LS -L
+   98  ls -l
+   99  ./shell_treninjsh.sh
+  100  chmod 744 shell_treninjsh.sh
+  101  ls -l
+  102  ./shell_treninjsh.sh
+  103  echo $NAME
+  104  nano shell_treninjsh.sh
+  105  ./shell_treninjsh.sh
+  106  nano shell_treninjsh.sh
+  107  ./shell_treninjsh.sh
+  108  history > history_20170921.txt
