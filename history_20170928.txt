@@ -1,0 +1,54 @@
+    1  VirtualBox --startvm XP
+    2  git clone https://github.com/dobrova/DMI.git
+    3  ls -l
+    4  cd DMI/
+    5  pwd
+    6  ls -l
+    7  nano shell_examples.sh
+    8  cat shell_examples.sh 
+    9  shell_examples.sh
+   10  pwd
+   11  /home/user/DMI/shell_examples.sh
+   12  ~/DMI/shell_example.sh
+   13  ~/DMI/shell_examples.sh
+   14  ./shell_examples.sh
+   15  ls -la
+   16  chmod 744 shell_examples.sh 
+   17  ls -la
+   18  ./shell_examples.sh
+   19  cat shell_examples.sh
+   20  nano shell_examples.sh 
+   21  ./Shell_examples.sh
+   22  ./shell_examples.sh
+   23  cat shell_examples.sh
+   24  nano shell_examples.sh 
+   25  ./shell_examples.sh
+   26  nano shell_examples.sh 
+   27  ./shell_examples.sh
+   28  echo $0
+   29  nano shell_examples.sh 
+   30  echo $0
+   31  ./shell_examples.sh
+   32  ~/DMI/shell_examples.sh
+   33  pwd
+   34  ls -la
+   35  ./shell_examples.sh
+   36  ./shell_examples.sh 
+   37  nano shell_examples.sh 
+   38  ./shell_examples.sh 
+   39  ~/DMI/shell_examples.sh
+   40  echo$#
+   41  echo $#
+   42  nano shell_examples.sh 
+   43  echo $#
+   44  ./shell_examples.sh 
+   45  nano shell_examples.sh 
+   46  ./shell_examples.sh 
+   47  ./shell_examples.sh arg1
+   48  ./shell_examples.sh arg2
+   49  ./shell_examples.sh arg1 arg2
+   50  ./shell_examples.sh arg1 arg2 arg3
+   51  ./shell_examples.sh arg1 arg2 arg3 arg4
+   52  nano git upload
+   53  nano git-upload
+   54  history > history_20170928.txt
