@@ -1,0 +1,35 @@
+pwd #parada tekoso direktoriju
+ls #parada tekosas direktorijas saturu
+ls -l #parada detalizetus tekosas direktorijas failus un direktorijas
+cd/ home #pariet uz direktoriju home
+cd .. #pariet uz direktoriju kura ir augstak
+cd~user #pariet uz lietotaja majas direktoriju
+cd Desktop/ #aiziet uz desktop darba vietu
+chmod +x #pieskirt izplildisanas atlauju
+chmod 744 #pieskirt izpildisanas atlauju
+date # parada datumu
+echo #izvada texta liniju
+mkdir dir1 #izveidot jaunu direktoriju ar nosaukumu dir1
+mkdir dir1 dir2 #vienlaikus izveidot divas jaunas direktorijas
+touch mape #izveidot jaunu failu ar nosaukumu mape
+rm file #dzest failu
+rm -r dir #dzest katalogu dir
+rm -f file1 #dzest failu ar nosaukumu file1
+ls -lh #parskats uz pilnvarotibu uz failiem un direktorijam tekosajaa direktorija
+top # parskatit visus palaistos procesus
+free # atminas izmantosana
+logout # iziesana no sistemas
+cat file1 #paradit faila1 saturu
+chmod 777 # atlauja lasisanai rakstisanai izpildisanai
+cal #paradit kalendaru
+git add #pievienot izmainas github direktorija
+git config--global user.email #ielogosanos github
+git push origin master #augsupielade github
+history #vestures parskats
+mv file.txt #faila parvietosana
+nano a.txt #failu modificesana
+PATH=$PATH:home/user #pievienot mapi celam
+rmdir dir1 #izdzest direktoriju ar nosaukumu dir1
+whereis #komanda kura parada kur tiesi atrodas kaads fails
+whoami parada kas tu esi
+ 
