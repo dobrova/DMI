@@ -1,5 +1,9 @@
 #!/bin/bash
 git config --global user.email ksenija288@inbox.lv
-git add .
-git commit -m "20170928_09 50"
-git push origin master
+
+
+	history>$(date +%Y%m%d_%H_%M)_history.txt
+
+	git add -A
+	git commit -m $(date +%Y%m%d_%H_%M)
+	git push origin master
