@@ -1,17 +1,17 @@
-#!/bin/sh
+#!/bin/bash
 
 a=10
 b=20
 
 #piemers nr1
-----------------------------------------------------
+echo "----------------------------------------------------"
 
 
 if [ $a -eq $b ]
 then
-echo "$a -eq $b : a is equal to b"
+echo "$a -eq $b : yes, a is equal to b"
 else
-echo "$a -eq $b: a is not equal to b"
+echo "$a -eq $b: no, a is not equal to b"
 fi
 
 if [ $a ==  $b ]
@@ -21,16 +21,15 @@ else
 echo "$a ==  $b: a is not equal to b"
 fi
 
-
----------------------------------------------------
+echo "----------------------------------------------------"
 #piemers nr2
 
 
 if [ $a -ne $b ]
 then
-echo "$a -ne $b: a is not equal to b"
+echo "$a -ne $b: yes, a is not equal to b"
 else
-echo "$a -ne $b : a is equal to b"
+echo "$a -ne $b : no, a is equal to b"
 fi
 
 
@@ -41,8 +40,8 @@ else
 echo "$a != $b : a is equal to b"
 fi
 
+echo "----------------------------------------------------"
 
----------------------------------------------------
 
 
 
