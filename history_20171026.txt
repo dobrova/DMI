@@ -1,0 +1,55 @@
+    1  VirtualBox --startvm XP
+    2  git clone https://github.com/dobrova/DMI
+    3  ls -l
+    4  nano if.sh
+    5  chmod 744 if.sh 
+    6  ./if.sh 
+    7  ./if.sh 10
+    8  ./if.sh -10
+    9  ./if.sh 5
+   10  ./if.sh -3
+   11  ./if.sh 12
+   12  nano if.sh
+   13  ./if.sh 12
+   14  nano if.sh
+   15  ./if.sh 12
+   16  nano if.sh
+   17  ./if.sh 12
+   18  nano if.sh
+   19  ./if.sh 12
+   20  nano if.sh
+   21  ./if.sh 0
+   22  nano if.sh
+   23  ./if.sh 0
+   24  nano if.sh
+   25  ./if.sh 10
+   26  nano if.sh
+   27  ./if.sh 10
+   28  ./if.sh -10
+   29  ./if.sh 0
+   30  nano if.sh
+   31  nano array_loop.sh
+   32  chmod 744 array_loop.sh 
+   33  ./array_loop.sh 
+   34  ./array_loop.sh 2 3 4
+   35  nano array_loop.sh
+   36  ./array_loop.sh 2 3 4
+   37  nano array_loop.sh
+   38  ./array_loop.sh 2 3 4
+   39  nano array_loop.sh
+   40  ./array_loop.sh 2 3 4
+   41  ./array_loop.sh 7 17 0 5
+   42* ./array_loop.sh 0 1 4 5 df
+   43  ./array_loop.sh 2 3 4 9 7 5 3
+   44  nano git-upload
+   45  git-upload
+   46  cat git-upload
+   47  ./git-upload
+   48  ls
+   49  mv if.sh array_loop.sh DMI/
+   50  ls
+   51  cat if.shy 
+   52  mv if.shy DMI/
+   53  cd DMI/
+   54  ls -la
+   55  history > history_20171026.txt
