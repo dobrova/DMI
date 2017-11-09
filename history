@@ -1,0 +1,39 @@
+    1  VirtualBox --startvm XP
+    2  git clone https://github.com/dobrova/DMI
+    3  cd DMI
+    4  cd PYTHON
+    5  nano variables.py
+    6  ./variables.py
+    7  chmod 744 variables.py 
+    8  ./variables.py 
+    9  nano variables.py
+   10  ./variables.py 
+   11  nano variables.py
+   12  ./variables.py 
+   13  nano variables.py
+   14  ./variables.py 
+   15  nano variables.py
+   16  ./variables.py 
+   17  nano variables.py
+   18  ./variables.py 
+   19  nano dialogs.py
+   20  ./variables.py 
+   21  nano dialogs.py
+   22  ./dialogs.py
+   23  chmod 744 dialogs.py 
+   24  ./dialogs.py
+   25  nano dialogs.py
+   26  ./dialogs.py
+   27  nano dialogs.py
+   28  ./dialogs.py
+   29  nano dialogs.py
+   30  ./dialogs.py
+   31  nano dialogs.py
+   32  ./dialogs.py
+   33  nano dialogs.py
+   34  ./dialogs.py
+   35  nano dialogs.py
+   36  cd..
+   37  cd ..
+   38  git-upload
+   39  history > history
