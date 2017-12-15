@@ -26,3 +26,17 @@ for i in range(0,5,1):
 plt.show ()
 
 
+
+
+print"y (x)= cosh(x)"
+print"       500"
+print"      ------"
+print"      \ "
+print"       \ x^(2*k)"
+print"        \-------"
+print"s(x) =  / (2-k)!"
+print"       /"
+print"      /"
+print"      ------"
+print"       k = 0"
+
