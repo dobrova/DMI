@@ -12,8 +12,12 @@ def mans_cos(x,n):
         S += a
         k += 1
     return S
+a=0.0
+b=4.0
+c=np.cosh(a)
+d=np.cosh(b)
 
-x = np.arange (0.0,4,0.01)
+x = np.arange (a,b,0.01)
 y = np.cosh(x)
 
 plt.plot(x,y)
@@ -40,3 +44,7 @@ print"      /"
 print"      ------"
 print"       k = 0"
 
+areaRect = (b-a)*(d-c)
+print areaRect
+#areaFunc = areaRect * len(green_x) / N
+#print areaFunc

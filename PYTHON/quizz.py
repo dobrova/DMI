@@ -2,17 +2,11 @@ import random
 import numpy as np
 import matplotlib.pyplot as plt
 
-def mans_sinuss(x):
-    y = np.sin(x)
+def mans_cosh(x):
+    y = np.cosh(x)
     return y
 
-N = 100000
-x = []
-y = []
-a = 0
-b = np.pi
-c = -4
-d = 4
+N = 100000 x = [] y = [] a = 0 b = np.pi c = -1 d = 1
 
 for i in range(N):
     x.append(random.uniform(a,b))
@@ -25,8 +19,8 @@ green_x = []
 green_y = []
 
 for i in range(N):
-    if (y[i] < mans_sinuss(x[i]) and y[i] > 0) \
-    or (y[i] > mans_sinuss(x[i]) and y[i] < 0):
+    if (y[i] < mans_cosh(x[i]) and y[i] > 0) \
+    or (y[i] > mans_cosh(x[i]) and y[i] < 0):
         green_x.append(x[i])
         green_y.append(y[i])
     else:
@@ -39,6 +33,5 @@ plt.grid()
 plt.show()
 
 areaRect = (b-a)*(d-c)
-areaSin = areaRect * len(green_x) / N
-print areaSin
-
+areaCosh = areaRect * len(green_x) / N
+print areaCosh
