@@ -1,0 +1,14 @@
+fmeta = open("meta2.bin", "rb")
+fmeta.seek(0)
+
+fdata = open("data2.bin", "w")
+
+while 1:
+	b = fmeta.read(1)
+	if not b:
+		break
+	print hex(ord(b))
+	print "\n"
+	
+f.close
+
