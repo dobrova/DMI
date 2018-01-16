@@ -6,4 +6,4 @@ for x in range(skaitlis, skaitlis+11, 1):
 	for i in range(1, 6, 1):
 		sk_mod=x%i
 		print "%d \t"%(sk_mod),
-print "\n" 
+	print "\n" 
